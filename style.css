@@ -1,0 +1,73 @@
+/* Style sheet for the website template project */
+
+* {
+
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+
+div.s1 {
+
+    background-color: #1F2937;
+    color: white;
+
+
+}
+
+/* Header Styles */
+
+div.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h1 {
+
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.right-placeholders {
+
+    display: flex;
+    gap: 1px;
+
+}
+
+.right-placeholders p {
+
+    margin: 0;
+
+}
+
+/* Hero Styles */
+
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+
+.hero h1 {
+
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    gap: 0;
+
+}
+
+.hero p {
+
+    gap: 0px;
+
+}
