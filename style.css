@@ -111,3 +111,55 @@ body {
     align-content: center;
 
 }
+
+/* Second Section Styles */
+.s2 {
+
+    background-color: white;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.s2 h1 {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+#inforow {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px
+
+}
+
+#inforow li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    font-size: 16px;
+
+}
+
+#inforow img {
+
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+/* Third Section Styles */
