@@ -3,27 +3,33 @@
 * {
 
     font-family: 'Roboto', sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
 
 }
 
 
-div.s1 {
+.s1 {
 
     background-color: #1F2937;
     color: white;
-
 
 }
 
 /* Header Styles */
 
-div.header {
+.header {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
 
 }
 
@@ -37,6 +43,7 @@ div.header {
 .right-placeholders {
 
     display: flex;
+    gap: 50px;
 
 }
 
@@ -52,8 +59,10 @@ div.header {
 
     display: flex;
     flex-direction: row;
-    padding: 100px 0px;
+    padding: 100px 40px;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 
 }
 
@@ -68,17 +77,16 @@ div.header {
 
 .hero p {
 
-    margin-top: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 
 .hero #signupbtn {
 
     background-color: #3882F6;
-    margin-left: 35px;
-    margin-top: 20px;
-    height: 30px;
-    width: 100px;
+    height: 40px;
+    width: 150px;
     text-align: center;
     align-content: center;
     border-radius: 10px;
@@ -97,7 +105,9 @@ div.header {
 .hero .img1 {
 
     background-color: #6f7175;
-    height: 200px;
-    width: 500px;
+    height: 300px;
+    width: 650px;
+    text-align: center;
+    align-content: center;
 
 }
