@@ -192,9 +192,49 @@ body {
     font-weight: bold;
     font-size: 24px;
     font-style: normal;
-
     align-self: flex-end;
     margin-right: 17%;
 
+}
+
+/* Fourth Section Styles */
+.s4 {
+
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    margin: 100px auto;
+    height: 150px;
+    max-width: 1100px;
+    width: 80%;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 0 80px;
+
+}
+
+.calltoaction {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.calltoaction h1, .calltoaction p {
+
+    margin: 0;
+
+}
+
+.calltoactionbtn {
+
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
 
 }
