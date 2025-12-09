@@ -163,3 +163,38 @@ body {
 }
 
 /* Third Section Styles */
+.s3 {
+
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+
+}
+
+.s3 p {
+
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    font-style: italic;
+    padding: 0px 300px;
+    margin-bottom: 20px;
+
+}
+
+.s3 cite {
+
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    font-style: normal;
+
+    align-self: flex-end;
+    margin-right: 17%;
+
+
+}
